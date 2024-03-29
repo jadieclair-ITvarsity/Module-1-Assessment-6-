@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+img {
+  width: 70%;
+  place-items: center;
+}
+
+table {
+  width: 100%;
+  font-size: 20px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://cdn11.bigcommerce.com/s-b7a27/images/stencil/1280x1280/products/12616/173528/cole-endurawall-decorative-3d-wall-panel-12in-x-12in-3__15673.1648110681.jpg?c=2")
+    no-repeat center;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.product-table,
+.product-desc,
+.details-container {
+  /* background-color: #eef4f9; */
+  /* background-color: #e6e9ef; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  display: flex;
+  border-radius: 15px;
+}
+
+.product-desc {
+  font-size: 20px;
+  background-color: #b8cfd8;
+}
+
+ul {
+  padding: 20px;
+  line-height: 1.6;
+}
