@@ -4,10 +4,16 @@
   font-family: "Open Sans", sans-serif;
 }
 
+/* Main page CSS */
+
 .project-page {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  /* grid-template-rows: 1fr 1fr; */
+}
+
+.navbar-nav .nav-item a.nav-link:hover,
+.footer-links li.nav-item a.nav-link:hover {
+  text-decoration: overline;
 }
 
 div.main-heading > h1 {
@@ -65,7 +71,7 @@ div.advert-card-container-right h3 {
 }
 
 .navigator .bar {
-  height: 5px;
+  height: 8px;
   width: 60px;
   background: #100f0f;
   cursor: pointer;
@@ -133,4 +139,54 @@ img {
 
 .rounded-pill {
   height: 250px;
+}
+
+/* Contact page CSS  */
+
+.contact-heading {
+  text-align: center;
+  color: #5c5e60;
+}
+
+.contact-heading {
+  font-size: 36px;
+}
+
+.contact-subheading {
+  font-size: 20px;
+}
+
+label {
+  color: #5c5e60;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-group textarea {
+  height: 100px;
 }
