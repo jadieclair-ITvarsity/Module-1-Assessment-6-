@@ -20,6 +20,23 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-dark-subtle">
         <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="m-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-apple"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
+              />
+              <path
+                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
+              />
+            </svg>
+          </div>
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="./index.html"
@@ -35,6 +52,7 @@
           </ul>
         </div>
       </nav>
+
       <div class="contact-heading">
         <h1 class="contact-heading mt-4">Contact us here</h1>
         <p class="contact-subheading mb-4">
@@ -42,65 +60,98 @@
           team will contact you.
         </p>
       </div>
-      <div class="contact-form">
-        <form action="#" method="post">
-          <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="form-group">
-            <label for="surname">Surname:</label>
-            <input type="text" id="surname" name="surname" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="message">Query:</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
-          <div class="form-group">
-            <label for="contact-number">Contact Number:</label>
-            <input
-              type="text"
-              id="contact-number"
-              name="contact-number"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <p>
-              Please allow a 24 hour response time for any technical issues.
-            </p>
-          </div>
-          <button type="button" class="btn btn-secondary btn-lg">Send</button>
-        </form>
-      </div>
 
+      <div class="contact-page">
+        <div class="contact-form">
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="surname">Surname:</label>
+              <input type="text" id="surname" name="surname" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contact-number">Contact Number:</label>
+              <input
+                type="text"
+                id="contact-number"
+                name="contact-number"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Query:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+              <p>
+                <i>
+                  Please allow a 24 hour response time for any technical issues.
+                </i>
+              </p>
+            </div>
+            <button type="button" class="btn btn-secondary btn-lg">Send</button>
+          </form>
+        </div>
+        <div class="contact-details">
+          <p>
+            If you prefer to contact us directly, here are our contact details:
+          </p>
+          <ul>
+            <li><strong>Email:</strong> assist@pre-apple.com</li>
+            <br />
+            <li><strong>Phone:</strong> +1234567890</li>
+            <br />
+            <li>
+              <strong>Address:</strong> 123 Norris Rd, Backersfield, California,
+              USA
+            </li>
+          </ul>
+          <p>Feel free to reach out to us with any questions or concerns!</p>
+          <map>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52022.628003787875!2d-119.1299315037332!3d35.41976694139475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea4299b5443287%3A0x299bad2c646f6bdd!2sOil%20Junction%2C%20CA%2093308%2C%20USA!5e0!3m2!1sen!2sza!4v1711876337410!5m2!1sen!2sza"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </map>
+        </div>
+      </div>
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center p-3 my-4 border-top bg-dark-subtle"
       >
         <p class="col-md-4 mb-0 text-body-secondary">
           Designed by Jade Harris &copy; 2024
         </p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="25"
-          height="25"
-          fill="currentColor"
-          class="bi bi-apple"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
-          />
-          <path
-            d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
-          />
-        </svg>
-
-        <ul class="nav col-md-4 justify-content-end">
+        <ul class="nav col-md-4 justify-content-end footer-links">
+          <div class="m-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-apple"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
+              />
+              <path
+                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"
+              />
+            </svg>
+          </div>
           <li class="nav-item">
             <a href="./index.html" class="nav-link px-2 text-body-secondary"
               >Home</a
